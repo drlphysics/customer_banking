@@ -1,1 +1,4 @@
 # customer_banking
+
+## OVERVIEW
+This code comprises four different python files: savings_account.py, cd_account.py, Account.py, and customer_banking.py. The objective of the code is for the user to be able to input values for the balance, interest rate, and time/months for both a savings and CD account, and to print the interest earned and updated balance from each afterward. The main script, customer_banking.py, prompts the user for input values, which are then passed as arguments to functions in savings_account.py and cd_account.py. These functions also create instances of the Account class from Account.py in order to eventually set the balance and interest gained from those accounts. Lastly, after the two aforementioned functions return the updated values for interest accrued and updated balance, these are printed out to the user.
